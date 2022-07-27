@@ -1,6 +1,5 @@
 from turtle import *
 import random
-from constants_art import set_theme
 
 setup(1000, 1000)
 
@@ -49,5 +48,4 @@ hideturtle()
 tracer(False)
 tiling(0,0,400,5,mode='diagonal')
 tracer(True)
-set_theme()
 exitonclick()
